@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteBase /
+RewriteRule ^hot$ hot.php
+RewriteRule ^vote$ vote.php
+RewriteRule ^trending$ trending.php
+RewriteRule ^xoay/([^/.]+)?/?(.*)$ view.php?pid=$1
+RewriteRule ^login$ login.php
+RewriteRule ^recover$ recover.php
+RewriteRule ^safe$ safe.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^search$ search.php
+RewriteRule ^submit$ submit.php
+#RewriteRule ^channels$ channels.php
+RewriteRule ^channels/([^/.]+)?/?$ channels.php?cname=$1&%{QUERY_STRING}
+#RewriteRule ^vote/([^/.]+)?/?$ vote.php?cname=$1&%{QUERY_STRING}
+</IfModule>
+
+<IfModule mod_security.c> 
+   # Turn off mod_security filtering. 
+   SecFilterEngine Off 
+
+   # The below probably isn't needed, 
+   # but better safe than sorry. 
+   SecFilterScanPOST Off 
+</IfModule>

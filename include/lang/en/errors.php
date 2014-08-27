@@ -1,0 +1,39 @@
+<?
+$errors = array();
+
+$errors['0'] =  "Error: Please enter your username.";
+$errors['1'] =  "Your username should have at least two characters.";
+$errors['2'] =  "Username can only contain letters A-Z and numbers 0-9.";
+$errors['3'] =  "Error: The username you chose is already taken.";
+$errors['4'] =  "Error: Please enter your password";
+$errors['5'] =  "Error: Please choose a topic.";
+$errors['6'] =  "Error: Please enter a subject.";
+$errors['7'] =  "Error: Please enter your message.";
+$errors['8'] =  "Error: Please enter your name.";
+$errors['9'] =  "Error: Please enter you e-mail address.";
+$errors['10'] =  "Error: Your e-mail address is not valid.";
+$errors['11'] =  "Error: Image code wrong, please try again.";
+$errors['12'] =  "Error: Your password is wrong.";
+$errors['13'] =  "Error: Your username or password is wrong.";
+$errors['14'] =  "Error: Your account is not active.";
+$errors['15'] = "Error: Your e-mail or password is wrong.";
+$errors['16'] =  "If an account exists with that e-mail address an e-mail will be sent with the account access.";
+$errors['17'] =  "Error: Unknown post.";
+$errors['18'] =  "Error: Cannot locate specified post.";
+$errors['19'] =  "This post is currently being moderated.";
+$errors['20'] =  "Error: You have reached your upload quote for today, try again tomorrow.";
+$errors['21'] =  "Error: Please enter a video url.";
+$errors['22'] =  "Error: Please enter a title.";
+$errors['23'] =  "Error: You must enter a video url from youtube.com or funnyordie.com";
+$errors['24'] =  "Error: Please select an image to upload.";
+$errors['25'] =  "Error: Your image format is not supported.";
+$errors['26'] =  "Error: Please enter a valid image url.";
+$errors['27'] =  "Error: Could not download your photo from the url.";
+$errors['28'] =  "Error: The e-mail address you entered is already in use.";
+$errors['29'] =  "Error: Please enter your new password.";
+$errors['30'] =  "Error: Please confirm your new password.";
+$errors['31'] =  "Error: Your new password and confirm password does not match.";
+$errors['32'] =  "";
+$errors['33'] =  "";
+$errors['34'] =  "";
+?>

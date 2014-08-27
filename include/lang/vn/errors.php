@@ -1,0 +1,39 @@
+<?
+$errors = array();
+
+$errors['0'] =  "Lỗi: Bạn chưa điền tên đăng nhập.";
+$errors['1'] =  "Tên đăng nhập phải có ít nhất 2 ký tự.";
+$errors['2'] =  "Tên đăng nhập chỉ có thể là ký từ từ A-Z hoặc số từ 0-9.";
+$errors['3'] =  "Lỗi: Tên đăng nhập này đã được sử dụng.";
+$errors['4'] =  "Lỗi: Bạn chưa nhập password";
+$errors['5'] =  "Lỗi: Chưa chọn topic.";
+$errors['6'] =  "Lỗi: Chưa chọn chủ đề.";
+$errors['7'] =  "Lỗi: Chưa điền nội dung tin nhắn.";
+$errors['8'] =  "Lỗi: Hãy nhập tên của bạn.";
+$errors['9'] =  "Lỗi: Hãy nhập email của bạn.";
+$errors['10'] =  "Lỗi: Email của bạn không đúng.";
+$errors['11'] =  "Lỗi: Mã ảnh sai.";
+$errors['12'] =  "Lỗi: Sai mật khẩu.";
+$errors['13'] =  "Lỗi: Sai tên đăng nhập hoặc mật khẩu.";
+$errors['14'] =  "Lỗi: Tài khoản của bạn chưa được kích hoạt.";
+$errors['15'] = "Lỗi: Sai email hoặc mật khẩu.";
+$errors['16'] =  "Nếu tài khoản này khớp với email, nó sẽ gửi về email quyền truy cập tài khoản.";
+$errors['17'] =  "Error: Unknown post.";
+$errors['18'] =  "Error: Cannot locate specified post.";
+$errors['19'] =  "This post is currently being moderated.";
+$errors['20'] =  "Lỗi: Bạn đã đăng đủ só lượng cho ngày hôm nay, hay thử lại vào ngày mai nhé.";
+$errors['21'] =  "Lỗi: Hãy nhập vào link video.";
+$errors['22'] =  "Lỗi: Hãy nhập tiêu đề vào bài viết, hai hước vào nhé ^_^.";
+$errors['23'] =  "Lỗi: Link video phải từ youtube.com hoặc funnyordie.com hoặc dailymotion.com ";
+$errors['24'] =  "Lỗi: Chưa chọn ảnh để đăng.";
+$errors['25'] =  "Lỗi: Định dạng ảnh không hỗ trợ.";
+$errors['26'] =  "Lỗi: Sai đường dẫn ảnh.";
+$errors['27'] =  "Lỗi: Không thể tải ảnh từ đường dẫn này.";
+$errors['28'] =  "Lỗi: Địa chỉ email này đã được sử dụng.";
+$errors['29'] =  "Lỗi: Bạn chưa nhập mật khẩu.";
+$errors['30'] =  "Lỗi: Hãy xác nhận lại mật khẩu.";
+$errors['31'] =  "Lỗi: Mật khẩu không khớp nhau.";
+$errors['32'] =  "";
+$errors['33'] =  "";
+$errors['34'] =  "";
+?>
